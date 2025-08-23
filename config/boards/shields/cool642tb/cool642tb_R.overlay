@@ -14,6 +14,20 @@
             ;
 };
 
+&zip_temp_layer {
+    excluded-positions = <
+        7
+        8
+        9 
+        19
+        20
+        21
+        31
+        32
+        33
+    >;
+};
+
 / {
     trackball_listener {
         compatible = "zmk,input-listener";
