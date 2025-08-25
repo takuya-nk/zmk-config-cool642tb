@@ -29,13 +29,10 @@
         33
     >;
     // スクロール動作検知時のAML延長設定
-    scroll-extension-ms = <5000>;  // スクロール後に5秒間AMLを延長
+    // スクロール検知後の延長時間（ミリ秒）
+    timeout-ms = <5000>;
     // スクロール動作を検知してAML延長
     detect-scroll = <1>;
-    // マウススクロール動作を検知
-    detect-mouse-scroll = <1>;
-    // スクロール検知後の延長時間
-    scroll-timeout-ms = <5000>;
 };
 
 / {
@@ -45,8 +42,6 @@
 
         // スクロール動作検知時にAMLを延長する設定
         input-processors = <&zip_temp_layer 4 10000>;
-        // スクロールイベントを検出してAML延長
-        scroll-extension = <1>;
     };
 };
 
