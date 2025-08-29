@@ -122,10 +122,10 @@
 
         MOUSE {
             bindings = <
-&kp Q       &kp W    &kp E             &kp R         &kp T                            &none          &none  &kp LC(UP_ARROW)  &mkp MB1         &mkp MB2
-&kp A       &kp S    &kp D             &kp F         &kp G     &kp N1    &kp N2       &none          &none  &kp K_COPY        &msc MOVE_Y(15)  &msc MOVE_Y(-15)
-&kp Z       &kp X    &kp C             &kp V         &kp B     &kp N3    &kp N4       &none          &none  &kp K_PASTE       &none            &none
-&kp ESCAPE  &kp TAB  &kp LEFT_CONTROL  &kp LEFT_GUI  &mkp MB1  &mkp MB2  &lt 2 SPACE  &kp BACKSPACE                                            &none
+&kp Q       &kp W    &kp E             &kp R         &kp T                                  &none          &none  &kp LC(UP_ARROW)  &mkp MB1         &mkp MB2
+&kp A       &kp S    &kp D             &kp F         &kp G     &kp N1          &kp N2       &none          &none  &kp K_COPY        &msc MOVE_Y(15)  &msc MOVE_Y(-15)
+&kp Z       &kp X    &kp C             &kp V         &kp B     &kp N3          &kp N4       &none          &none  &kp K_PASTE       &none            &none
+&kp ESCAPE  &kp TAB  &kp LEFT_CONTROL  &kp LEFT_GUI  &mkp MB1  &kp LEFT_SHIFT  &lt 2 SPACE  &kp BACKSPACE                                            &none
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
