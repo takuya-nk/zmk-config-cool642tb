@@ -1,6 +1,15 @@
 #include "cool642tb.dtsi"
 #include <input/processors.dtsi>
 
+&zip_temp_layer {
+    require-prior-idle-ms = <200>;
+    excluded-positions = <
+        7  // I
+        8  // O
+        9  // P
+    >;
+};
+
 &default_transform {
     col-offset = <6>;
 };
