@@ -22,6 +22,8 @@
     quick-release;
 };
 
+&caps_word { continue-list = <UNDERSCORE MINUS BACKSPACE DELETE>; };
+
 / {
     combos {
         compatible = "zmk,combos";
@@ -46,7 +48,7 @@
         };
 
         comb3 {
-            bindings = <&kp CAPSLOCK>;
+            bindings = <&caps_word>;
             key-positions = <22 23>;
         };
 
