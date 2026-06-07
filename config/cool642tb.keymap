@@ -23,7 +23,9 @@
 
         comb1 {
             bindings = <&kp TAB>;
-            key-positions = <11 10>;
+            key-positions = <11 12>;
+            timeout-ms = <60>;
+            require-prior-idle-ms = <150>;
         };
 
         comb2 {
