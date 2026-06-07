@@ -28,6 +28,13 @@
             require-prior-idle-ms = <150>;
         };
 
+        comb_shift_tab {
+            bindings = <&kp LS(TAB)>;
+            key-positions = <12 13>;
+            timeout-ms = <60>;
+            require-prior-idle-ms = <150>;
+        };
+
         comb2 {
             bindings = <&kp LS(ESCAPE)>;
             key-positions = <0 1>;
